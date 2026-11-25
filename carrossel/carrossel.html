@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--asf:#16181d;--amarelo:#ffc629;--verde:#1f9d6b;--claro:#f4f1ea;--cinza:#9aa0aa}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:'Archivo',sans-serif}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--asf);color:var(--claro);padding:96px 88px;display:flex;flex-direction:column}
+.s.claro{background:var(--claro);color:var(--asf)}
+.tag{font-weight:800;font-size:28px;letter-spacing:.14em;text-transform:uppercase;color:var(--amarelo)}
+.claro .tag{color:var(--verde)}
+h1{font-weight:900;font-size:112px;line-height:.95;letter-spacing:-.02em;margin-top:36px}
+h2{font-weight:900;font-size:84px;line-height:1;letter-spacing:-.02em;margin-top:28px}
+p{font-size:40px;line-height:1.35;margin-top:36px;max-width:880px}
+.hl{color:var(--amarelo)} .claro .hl{color:var(--verde)}
+.pg{position:absolute;bottom:72px;right:88px;font-weight:600;font-size:28px;color:var(--cinza)}
+.swipe{position:absolute;bottom:72px;left:88px;font-weight:800;font-size:30px;color:var(--amarelo)}
+.road{position:absolute;left:0;right:0;height:180px;background:#2a2d34}
+.road::after{content:"";position:absolute;top:50%;left:0;right:0;height:14px;margin-top:-7px;background:repeating-linear-gradient(90deg,var(--amarelo) 0 90px,transparent 90px 160px)}
+.big{font-weight:900;font-size:300px;line-height:.85;letter-spacing:-.04em;color:var(--amarelo);margin-top:40px}
+.claro .big{color:var(--verde)}
+.unit{font-weight:800;font-size:56px;letter-spacing:0}
+.list{margin-top:48px;display:flex;flex-direction:column;gap:30px}
+.it{display:flex;gap:28px;align-items:flex-start;font-size:40px;line-height:1.3}
+.dot{flex:none;width:28px;height:28px;border-radius:50%;background:var(--amarelo);margin-top:10px}
+.claro .dot{background:var(--verde)}
+.map{margin-top:auto;margin-bottom:120px}
+.fonte{font-size:24px;color:var(--cinza);margin-top:auto;margin-bottom:80px;line-height:1.4}
+</style></head><body>
+
+<section class="s">
+  <div class="tag">Flórida Central · Trânsito</div>
+  <h1>Nova ligação entre <span class="hl">Orange</span> e <span class="hl">Lake</span> está aberta</h1>
+  <p>A extensão da New Independence Parkway foi liberada ao tráfego — cerca de um mês antes do previsto.</p>
+  <div class="road" style="bottom:240px"></div>
+  <div class="swipe">Arraste →</div><div class="pg">1/6</div>
+</section>
+
+<section class="s claro">
+  <div class="tag">O que é</div>
+  <h2>Um trecho curto que fecha uma lacuna importante</h2>
+  <div class="big">~1,6<span class="unit"> km</span></div>
+  <p style="margin-top:12px">Cerca de <b>1 milha</b> de via nova, da divisa entre os condados até pouco a leste da Avalon Road, em Horizon West.</p>
+  <div class="pg">2/6</div>
+</section>
+
+<section class="s">
+  <div class="tag">A rota</div>
+  <h2>Da SR 429 até a US 27, em Clermont</h2>
+  <p>Na divisa dos condados, a parkway encontra a <span class="hl">Wellness Way</span>, construída pelo condado de Lake.</p>
+  <svg class="map" viewBox="0 0 904 300" width="904" height="300">
+    <line x1="40" y1="150" x2="864" y2="150" stroke="#3a3e47" stroke-width="40" stroke-linecap="round"/>
+    <line x1="40" y1="150" x2="452" y2="150" stroke="#ffc629" stroke-width="40" stroke-linecap="round"/>
+    <line x1="452" y1="60" x2="452" y2="240" stroke="#9aa0aa" stroke-width="4" stroke-dasharray="12 10"/>
+    <circle cx="40" cy="150" r="34" fill="#16181d" stroke="#ffc629" stroke-width="8"/>
+    <circle cx="864" cy="150" r="34" fill="#16181d" stroke="#f4f1ea" stroke-width="8"/>
+    <text x="10" y="250" fill="#f4f1ea" font-family="Archivo" font-weight="800" font-size="30">SR 429</text>
+    <text x="894" y="250" fill="#f4f1ea" font-family="Archivo" font-weight="800" font-size="30" text-anchor="end">US 27</text>
+    <text x="246" y="80" fill="#ffc629" font-family="Archivo" font-weight="800" font-size="26" text-anchor="middle">INDEPENDENCE PKWY</text>
+    <text x="658" y="80" fill="#9aa0aa" font-family="Archivo" font-weight="800" font-size="26" text-anchor="middle">WELLNESS WAY</text>
+    <text x="452" y="290" fill="#9aa0aa" font-family="Archivo" font-weight="600" font-size="22" text-anchor="middle">divisa Orange | Lake</text>
+  </svg>
+  <div class="pg">3/6</div>
+</section>
+
+<section class="s claro">
+  <div class="tag">Como é a via</div>
+  <h2>Pensada para carros e para quem anda a pé ou de bike</h2>
+  <div class="list">
+    <div class="it"><span class="dot"></span><span><b>4 faixas</b>, pista dupla com canteiro central</span></div>
+    <div class="it"><span class="dot"></span><span><b>Caminhos multiuso de 3 m</b> (10 pés) dos dois lados</span></div>
+    <div class="it"><span class="dot"></span><span>Feita por meio de <b>parceria público-privada</b></span></div>
+    <div class="it"><span class="dot"></span><span>Investimento de cerca de <b>US$ 14,5 milhões</b></span></div>
+  </div>
+  <div class="pg">4/6</div>
+</section>
+
+<section class="s">
+  <div class="tag">Impacto no trânsito</div>
+  <h2>Menos carros nas rotas de sempre</h2>
+  <div class="big" style="font-size:210px">7–9 mil</div>
+  <p style="margin-top:16px">veículos por dia devem deixar outras ligações leste-oeste, como a <span class="hl">Schofield Road</span> e a <span class="hl">Marsh Road</span>.</p>
+  <div class="road" style="bottom:0;height:120px"></div>
+  <div class="pg" style="bottom:150px">5/6</div>
+</section>
+
+<section class="s claro">
+  <div class="tag">Linha do tempo</div>
+  <h2>Pronta antes do prazo</h2>
+  <div class="list">
+    <div class="it"><span class="dot"></span><span><b>Set/2025</b> — obras começam</span></div>
+    <div class="it"><span class="dot"></span><span><b>Início de 2027</b> — previsão original de conclusão</span></div>
+    <div class="it"><span class="dot"></span><span><b>Nov/2026</b> — via aberta ao tráfego, ~1 mês adiantada</span></div>
+  </div>
+  <div class="fonte">Fontes: WFTV, Orange County (ocfl.net), Spectrum News 13, The Orlando Real.</div>
+  <div class="pg">6/6</div>
+</section>
+</body></html>
